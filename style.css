@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'raleway';
+}
+body{
+    margin: 0;
+    background: #f3d0a1;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color:#2b2b57;
+}
+.titulo{
+    background-color: lightsalmon;
+    font-size: 35px;
+    transform:rotate(-1deg);
+}
+.titulo h1{
+    transform: rotate(1deg);
+}
+.fechas{
+    font-size: 30px;
+    font-weight: bold;
+}
+.intro{
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+.hola{
+    background: #ff6b5e;
+    font-size: 35px;
+    padding: 15px;
+    color: white;
+}
+.fila{
+    display: flex;
+    margin: 30px 0;
+}
+.fila .texto{
+    background-color: #fbdfd5;
+    width: 80%;
+    padding: 0 60px;
+    line-height: 30px;
+}
+.fila p{
+    font-size: 20px;
+}
+.izquierda{
+    text-align: center;
+}
+.derecho{
+    text-align: right;
+}
+.filas .texto h2{
+    font-size: 38px;
+    color: #ff6b5e;
+}
+.fila .img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fila .img img{
+    position: relative;
+    width: 200px;
+}
+.efecto1{
+    right:40px;
+    animation: bajar 3s linear infinite;
+}
+.efecto2{
+    left:40px;
+    animation: efecto 3s linear infinite;
+}
+
+.efecto4{
+    right:40px;
+    animation: efecto4 3s linear infinite;
+}
+.efecto3{
+    right: 40px;
+    animation: mover3s linear inf
+
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+@keyframes bajar{
+    0%{top: 0;}
+    50%{top: 40px}
+    100%{top: 0;}
+}
+@keyframes efecto2{
+    0%{transform: scale(.9);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(.9);}
+}
+@keyframes mover{
+    0%{left: 0;}
+    50%{left: 40px}
+    100%{left: 0;}
+}
+.adios{
+    background: #ff6b5e;
+    font-size: 35px;
+    padding: 15px;
+    color: rgb(102, 20, 20);
+}
+
+.filor{
+    display: flex;
+    margin: 30px 0;
+}
+.filor .texto{
+    background-color: #b492af;
+    width: 100% 20% 40% 40%;
+    padding: 0 50px;
+    line-height: 30px;
+}
+.izquierdo{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
